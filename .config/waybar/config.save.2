@@ -1,0 +1,207 @@
+{
+  "layer": "top",
+  "position": "top",
+  "spacing": 4,
+  "margin-top": 5,
+  "margin-bottom": 0,
+  "margin-left": 5,
+  "margin-right": 5,
+
+  "modules-left": [
+    "custom/icon",
+    "custom/separator-space",
+    "hyprland/workspaces",
+    "custom/spotify",2
+    "custom/separator-arrow",
+    "hyprland/window",
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "backlight",
+    "pulseaudio",
+    "network",
+    "battery",
+    "tray",
+    "custom/inhibitor",
+    "custom/notification",
+    "custom/power",
+  ],
+  
+  "custom/icon": {
+    "format": "󰣇",
+    "on-click": "~/.config/rofi/bin/launcher",
+    "tooltip": false 
+  },
+
+  "cpu": {
+    "interval": 10,
+    "format": " {usage}%",
+    "max-length": 10,
+    "tooltip": false
+  },
+  
+  "clock": {
+		"format": "<b>󰥔 {:%H:%M 󰃭 %d/%m} </b>",
+		//"format": "{:%a}",
+		"tooltip-format": "<tt>{calendar}</tt>",
+        "calendar": {
+                    "mode"          : "month",
+                    "format": {
+                              "months":     "<span color='#cdd6f4'><b>{}</b></span>",
+                              "days":       "<span color='#cdd6f4'><b>{}</b></span>",
+                              "weeks":      "<span color='#cdd6f4'><b>W{}</b></span>",
+                              "weekdays":   "<span color='#cdd6f4'><b>{}</b></span>",
+                              "today":      "<span color='#f38ba8'><b>{}</b></span>"
+                              }
+                    },
+    },
+
+  "memory": {
+    "interval": 30,
+    "format": " {used}GiB",
+    "format-alt": " {used:0.1f}G",
+    "max-length": 10
+  },
+
+  "temperature": {
+    "format": " {temperatureF}°F"
+  },
+
+  "hyprland/window": {
+    "format": " {}",
+    "rewrite": {
+      "(.*) - NVIM": " NeoVim",
+      "(.*) — Mozilla Firefox": "󰈹 Firefox",
+      " ": "󰇄 Desktop",
+      "(.*) Spotify Free": "󰓇 Spotify",
+      "(.*) Spotify": "󰓇 Spotify",
+      " ~": " l6174@Radon",
+      "(.*) - Obsidian(.*)": "󱓧 Obsidian",
+    }
+  },
+
+  "hyprland/workspaces": {
+    "all-outputs": false,
+    "format": "{icon}",
+    "format-icons": {
+      "urgent": " ",
+      "persistent": " ",
+      "active": "     ",
+      "empty": " "
+    },
+    "persistent-workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [] 
+   }
+  },
+  
+  "backlight": {
+    "format": "{icon} <b>{percent}</b>",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "tooltip": false,
+   },
+
+  "pulseaudio": {
+    "format": "{icon} <b>{volume}</b>",
+    "format-bluetooth": "{icon}  {volume}%",
+    "format-bluetooth-muted": "󰝟 ",
+    "format-muted": " 󰝟 ",
+    "format-icons": {
+      "headset": "",
+      "default": ["󰕿", "󰖀", "󰕾"],
+    },
+    "tooltip": false,
+    "on-click": "pavucontrol",
+  },
+
+  "network": {
+    "interval": 30,
+    "format-wifi": "󰤨 {essid}",
+    "format-ethernet": "󰈀 Wired",
+    "fomat-disconnected": "󱚵 Disconnected",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-icons": ["󰂎", "󰁻", "󰁽", "󰁿", "󰂁", "󰁹"],
+    "max-length": 25,
+    "tooltip": false,
+  },
+
+  "tray": {
+    "icon-size": 20,
+    "spacing": 10,
+  },
+
+  "custom/inhibitor": {
+    "exec": "~/.local/bin/waybar-inhibitor",
+    "interval": 5,
+    "return-type": "json",
+    "tooltip": true,
+    "on-click": "~/.local/bin/inhibitor",
+    "signal": 10
+  },
+
+
+  "custom/separator-dot": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "$HOME/.config/hypr/scripts/random-wallpaper"
+  },
+
+  "custom/separator-gap": {
+    "format": "  ",
+    "tooltip": false,
+  },
+
+  "custom/separator-arrow": {
+    "format": "  ",
+    "tooltip": false,
+  },
+
+  "custom/spotify": {
+    "exec": "/usr/bin/python3 $HOME/.config/waybar/custom-scripts/mediaplayer.py --player spotify --verbose",
+    "format": " {}  ",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+  },
+  "custom/power": {
+    "format": "󰐥",
+    "on-click": "~/.config/rofi/bin/powermenu",
+    "tooltip": false,
+  },
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󱅫 ",
+      "none": "󰂚 ",
+      "dnd-notification": "󰵙 ",
+      "dnd-none": "󰂛 ",
+      "inhibited-notification": "󱅫 ",
+      "inhibited-none": "󰂚 ",
+      "dnd-inhibited-notification": "󰵙 ",
+      "dnd-inhibited-none": "󰂛​ "
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+}

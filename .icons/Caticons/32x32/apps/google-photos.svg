@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" version="1.1">
+ <path style="opacity:0.2" d="m16 3v7h-7l-7 7h7v7l7 7v-7h7l7-7h-7v-7z"/>
+ <path style="fill:#df8e1d" d="m16 16-14 0 7-7h7"/>
+ <path style="fill:#e64553" d="m16 16-0-14 7 7v7"/>
+ <path style="fill:#40a02b" d="m9 16v7l7 7 0-14"/>
+ <path style="fill:#04a5e5" d="m16 16 14 0l-7 7h-7"/>
+ <path style="opacity:0.2;fill:#eff1f5" d="m16 16l1 1h12l1-1h-14z"/>
+ <path style="fill:#8839ef" d="m16 16 7-7v7z"/>
+ <path style="fill:#40a02b" d="m16 16-7 7l0-7z"/>
+ <path style="fill:#1e66f5" d="m23 23-7-7v7z"/>
+ <path style="fill:#df8e1d" d="m9 9 7 7v-7z"/>
+ <path style="opacity:0.2;fill:#eff1f5" d="m16 2v1l7 7v-1l-7-7zm-7 7l-7 7h1l6-6h7v-1h-7z"/>
+ <path style="opacity:0.2" d="m16 13-1.25 2.75-2.75 1.25 2.75 1.25 1.25 2.75 1.25-2.75 2.75-1.25-2.75-1.25z"/>
+ <path style="fill:#eff1f5" d="m16 12-1.25 2.75-2.75 1.25 2.75 1.25 1.25 2.75 1.25-2.75 2.75-1.25-2.75-1.25z"/>
+ <path style="fill:#eff1f5" d="m12 16 2.75 1.25 1.25 2.75v-4z"/>
+ <path style="fill:#eff1f5" d="m20 16-2.75 1.25-1.25 2.75v-4z"/>
+</svg>

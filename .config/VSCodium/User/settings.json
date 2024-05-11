@@ -1,0 +1,20 @@
+{
+    // we try to make semantic highlighting look good
+    "editor.semanticHighlighting.enabled": true,
+    // prevent VSCode from modifying the terminal colors
+    "terminal.integrated.minimumContrastRatio": 1,
+    // make the window's titlebar use the workbench colors
+    "window.titleBarStyle": "custom",
+    "catppuccin.accentColor": "red",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.fontSize": 16,
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.fontLigatures": true
+  }

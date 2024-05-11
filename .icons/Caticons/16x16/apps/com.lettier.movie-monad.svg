@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1">
+ <rect style="fill:#eff1f5" width="15" height="15" x="1" y="1" rx=".75" ry=".75"/>
+ <path style="fill:none;stroke:#ea76cb;stroke-linejoin:bevel" d="M 14.265,6.626 11.265,8.501 14.265,10.376"/>
+ <path style="fill:none;stroke:#8839ef;stroke-linejoin:bevel" d="M 10.265,6.626 7.265,8.501 10.265,10.376"/>
+ <rect style="fill:#04a5e5" width="3" height="1" x="3" y="7"/>
+ <rect style="fill:#04a5e5" width="3" height="1" x="3" y="9"/>
+</svg>

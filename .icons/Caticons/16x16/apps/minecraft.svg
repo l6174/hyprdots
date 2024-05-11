@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1">
+ <rect style="fill:#40a02b" width="2" height="2" x="0" y="2" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="2" y="8" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-10" y="8" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-8" y="8" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-10" y="6" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="6" y="6" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-8" y="4" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="8" y="4" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="2" y="2" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-12" y="10" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="4" y="10" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-12" y="8" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="4" y="8" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="4" y="6" ry="0"/>
+ <rect style="fill:#5c5f77" width="2" height="2" x="-12" y="6" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="10" y="4" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="-6" y="2" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="4" y="4" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="6" y="-12" ry="0" transform="scale(1,-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="8" y="-12" ry="0" transform="scale(1,-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-4" y="-12" ry="0" transform="scale(-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-14" y="8" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="12" y="6" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="8" y="2" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="10" y="2" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="12" y="2" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="-14" y="4" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-4" y="6" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="-8" y="2" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="-4" y="4" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="12" y="-12" ry="0" transform="scale(1,-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="12" y="14" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="6" y="14" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="8" y="14" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="4" y="-16" ry="0" transform="scale(1,-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-12" y="-16" ry="0" transform="scale(-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="4" y="12" ry="0"/>
+ <rect style="fill:#5c5f77" width="2" height="2" x="6" y="12" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="10" y="12" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="8" y="12" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-14" y="12" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#5c5f77" width="2" height="2" x="-4" y="-14" ry="0" transform="scale(-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="2" y="-16" ry="0" transform="scale(1,-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-16" y="8" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-16" y="6" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="14" y="4" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="14" y="-12" ry="0" transform="scale(1,-1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="14" y="2" ry="0"/>
+ <path style="fill:#df8e1d" d="m 14,14 h 2 c 0,2 -2,2 -2,2 z"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="14" y="12" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="-14" y="0" ry="0" transform="scale(-1,1)"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="10" y="0" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="2" y="0" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="4" y="0" ry="0"/>
+ <path style="fill:#40a02b" d="M 2,0 C 2,0 0,0 0,2 h 2 z"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="8" y="0" ry="0"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="6" y="0" ry="0"/>
+ <path style="fill:#40a02b" d="m 14,0 c 2,0 2,2 2,2 h -2 z"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="-2" y="-6" ry="0" transform="scale(-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="0" y="-14" ry="0" transform="scale(1,-1)"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="0" y="10" ry="0"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="0" y="8" ry="0"/>
+ <path style="fill:#df8e1d" d="M 2,16 C 0,16 0,14 0,14 h 2 z"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="0" y="6" ry="0"/>
+</svg>

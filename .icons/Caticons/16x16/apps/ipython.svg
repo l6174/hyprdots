@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1">
+ <rect style="fill:#7287fd" width="15" height="14" x="1" y="1" rx=".75" ry=".778"/>
+ <rect style="fill:#1e66f5" width="15" height="10" x="1" y="3"/>
+ <rect style="fill:#04a5e5" width=".8" height="8" x="4" y="4"/>
+ <rect style="fill:#04a5e5" width="2" height=".8" x="4" y="4"/>
+ <rect style="fill:#04a5e5" width="2" height=".8" x="4" y="11.2"/>
+ <rect style="fill:#04a5e5" width=".8" height="8" x="-12" y="4" transform="scale(-1,1)"/>
+ <rect style="fill:#04a5e5" width="2" height=".8" x="-12" y="4" transform="scale(-1,1)"/>
+ <rect style="fill:#04a5e5" width="2" height=".8" x="-12" y="11.2" transform="scale(-1,1)"/>
+ <path style="fill:none;stroke:#eff1f5;stroke-width:0.8" d="M 6.4,6 8.4,10"/>
+ <path style="fill:none;stroke:#eff1f5;stroke-width:0.8" d="M 10,6 C 10,6 8.4,11.6 7.2,11.6 H 6.8"/>
+ <path style="fill:#04a5e5" d="M 13,6.4626 A 0.4,0.4 0 0 1 12.6,6.8626 0.4,0.4 0 0 1 12.2,6.4626 0.4,0.4 0 0 1 12.6,6.0626 0.4,0.4 0 0 1 13,6.4626 Z"/>
+ <path style="fill:#04a5e5" d="M 13,10.609 A 0.4,0.4 0 0 1 12.6,11.009 0.4,0.4 0 0 1 12.2,10.609 0.4,0.4 0 0 1 12.6,10.209 0.4,0.4 0 0 1 13,10.609 Z"/>
+</svg>

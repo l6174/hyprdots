@@ -1,0 +1,11 @@
+#!/bin/bash
+sleep 1
+figlet "Update"
+sleep 0.5
+echo "."
+sleep 0.5
+echo "."
+sleep 0.5
+echo "."
+sleep 0.5
+arch-update

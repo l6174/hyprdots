@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
+ <circle style="fill:#40a02b" cx="14" cy="14" r="2"/>
+ <circle style="fill:#1e66f5" cx="6" cy="10" r="2"/>
+ <circle style="fill:#40a02b" cx="6" cy="6" r="2"/>
+ <circle style="fill:#40a02b" cx="2" cy="2" r="2"/>
+ <circle style="fill:#e64553" cx="6" cy="2" r="2"/>
+ <circle style="fill:#1e66f5" cx="14" cy="2" r="2"/>
+ <circle style="fill:#1e66f5" cx="10" cy="6" r="2"/>
+ <circle style="fill:#e64553" cx="14" cy="10" r="2"/>
+ <circle style="fill:#1e66f5" cx="2" cy="14" r="2"/>
+ <circle style="fill:#1e66f5" cx="10" cy="14" r="2"/>
+</svg>

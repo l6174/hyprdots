@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="-7" y1="3" x2="31.5737" y2="10.8853" gradientTransform="matrix(0.916667, 0, 0, 0.916667, 0, 0)">
+      <stop offset="0" stop-color="rgb(98.431373%, 67.058825%, 49.411765%)" stop-opacity="1"/>
+      <stop offset="1" stop-color="rgb(93.725491%, 31.37255%, 57.647061%)" stop-opacity="1"/>
+    </linearGradient>
+    <image id="source-20" x="0" y="0" width="22" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAABN0lEQVQ4jbWUv0oDQRDGv51dJZWgBIVUPkKeQMGnEF9A7ex9BmsRhOBLaBoFS60s9RHsUtjI/RmL5NZxbm7vLjEDQ7jZ2d9+kJkPWFO4nvVUcArgxG/TmYaw+I71oC5aaQmQQJkRXoG1UhKp4RLAAEqRvOhjSzGNMAoPp5cHA7+5m5c5GWoRKJQOyO4/Xp4uHm9nEqqVVgr929n14f7WcGoBdXwX2d3e1ck5gFwq12ocANoAhl2gAECOdmD82RbYlcydx43nva3gVSPCySgusxy1O/+tOAlmo9YWtTuUOlzlAa2YATA51/kRN++VK90M9t5nPTQWFjj8aVns/vT99fl4fDRxwHZaLRWfX7Mb/PpEhOsRI9QNqI8JldWZnL8m22yaa8s2o+quRq/7Wo3eUrPM5unH1hc/WypoVjhEmKkAAAAASUVORK5CYII="/>
+  </defs>
+  <path fill-rule="nonzero" fill="url(#linear-pattern-0)" d="M 4.582031 2.75 L 17.417969 2.75 C 18.429688 2.75 19.25 3.570312 19.25 4.582031 L 19.25 14.988281 C 19.25 16.003906 18.429688 16.824219 17.417969 16.824219 L 4.582031 16.824219 C 3.570312 16.824219 2.75 16.003906 2.75 14.988281 L 2.75 4.582031 C 2.75 3.570312 3.570312 2.75 4.582031 2.75 Z M 4.582031 2.75 "/>
+  <path fill-rule="nonzero" fill="rgb(76.862746%, 76.862746%, 76.862746%)" fill-opacity="1" d="M 6.339844 6.339844 L 14.039062 6.339844 L 14.039062 6.707031 L 6.339844 6.707031 Z M 6.339844 6.339844 "/>
+  <path fill-rule="nonzero" fill="rgb(76.862746%, 76.862746%, 76.862746%)" fill-opacity="1" d="M 6.339844 10.738281 L 14.40625 10.738281 L 14.40625 11.105469 L 6.339844 11.105469 Z M 6.339844 10.738281 "/>
+  <path fill-rule="nonzero" fill="rgb(76.862746%, 76.862746%, 76.862746%)" fill-opacity="1" d="M 6.339844 10.003906 L 12.570312 10.003906 L 12.570312 10.371094 L 6.339844 10.371094 Z M 6.339844 10.003906 "/>
+  <path fill-rule="nonzero" fill="rgb(76.862746%, 76.862746%, 76.862746%)" fill-opacity="1" d="M 6.339844 9.273438 L 13.671875 9.273438 L 13.671875 9.636719 L 6.339844 9.636719 Z M 6.339844 9.273438 "/>
+  <path fill-rule="nonzero" fill="rgb(76.862746%, 76.862746%, 76.862746%)" fill-opacity="1" d="M 6.339844 8.539062 L 15.871094 8.539062 L 15.871094 8.90625 L 6.339844 8.90625 Z M 6.339844 8.539062 "/>
+  <path fill-rule="nonzero" fill="rgb(76.862746%, 76.862746%, 76.862746%)" fill-opacity="1" d="M 6.339844 7.804688 L 13.671875 7.804688 L 13.671875 8.171875 L 6.339844 8.171875 Z M 6.339844 7.804688 "/>
+  <path fill-rule="nonzero" fill="rgb(76.862746%, 76.862746%, 76.862746%)" fill-opacity="1" d="M 6.339844 7.070312 L 15.136719 7.070312 L 15.136719 7.4375 L 6.339844 7.4375 Z M 6.339844 7.070312 "/>
+  <path fill-rule="nonzero" fill="rgb(21.176471%, 22.745098%, 26.666668%)" fill-opacity="1" d="M 2.75 12.832031 L 19.25 12.832031 L 19.25 17.417969 C 19.25 18.429688 18.429688 19.25 17.417969 19.25 L 4.582031 19.25 C 3.570312 19.25 2.75 18.429688 2.75 17.417969 Z M 2.75 12.832031 "/>
+  <use xlink:href="#source-20"/>
+</svg>

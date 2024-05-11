@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" version="1.1">
+ <rect style="opacity:0.2" width="44" height="16" x="2" y="29" rx="3" ry="3"/>
+ <rect style="fill:#40a02b" width="4" height="38" x="26" y="4"/>
+ <rect style="fill:#40a02b" width="4" height="38" x="22" y="4"/>
+ <rect style="fill:#8839ef" width="4" height="38" x="34" y="4"/>
+ <rect style="fill:#1e66f5" width="4" height="38" x="30" y="4"/>
+ <rect style="fill:#df8e1d" width="4" height="38" x="10" y="4"/>
+ <rect style="fill:#4c4f69" width="4" height="38" x="6" y="4"/>
+ <rect style="fill:#df8e1d" width="4" height="38" x="18" y="4"/>
+ <rect style="fill:#e64553" width="4" height="38" x="14" y="4"/>
+ <rect style="fill:#5c5f77" width="4" height="38" x="38" y="4"/>
+ <rect style="fill:#40a02b" width="44" height="16" x="2" y="28" rx="3" ry="3"/>
+ <path style="opacity:0.2;fill:none;stroke:#eff1f5;stroke-width:2" d="m 9,42 h 4 V 32 h 12 v 10 h 5 V 32 h 5.000406 V 42 H 39"/>
+ <path style="fill:none;stroke:#40a02b;stroke-width:2" d="m 9,41 h 4 V 31 h 12 v 10 h 5 V 31 h 5.000406 V 41 H 39"/>
+ <path style="fill:#eff1f5;opacity:0.2" d="M 5 28 C 3.338 28 2 29.338 2 31 L 2 32 C 2 30.338 3.338 29 5 29 L 43 29 C 44.662 29 46 30.338 46 32 L 46 31 C 46 29.338 44.662 28 43 28 L 5 28 z"/>
+ <rect style="opacity:0.1;fill:#eff1f5" width="36" height="1" x="6" y="4"/>
+</svg>

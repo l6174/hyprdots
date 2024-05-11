@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+monitor=`hyprctl monitors | grep Monitor | awk '{print $2}'`
+
+wpDir="$HOME/Wallpapers/Favourite/"
+
+wpFile=$(find "$wpDir" -type f -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" | shuf -n 1)
+cp $wpFile ~/.cache/wp.png
+hyprctl hyprpaper unload all
+hyprctl hyprpaper preload $wpFile
+hyprctl hyprpaper wallpaper "$monitor, $wpFile"

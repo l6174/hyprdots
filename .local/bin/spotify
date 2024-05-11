@@ -1,0 +1,4 @@
+/usr/bin/spotify &
+sleep 3
+pkill -RTMIN+30 waybar
+exit

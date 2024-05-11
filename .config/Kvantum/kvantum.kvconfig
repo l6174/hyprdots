@@ -1,0 +1,5 @@
+[General]
+theme=Catppuccin-Mocha-Red
+
+[Applications]
+KvGnomeDark=polkit-kde-authentication-agent-1

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-0">
+      <path clip-rule="nonzero" d="M 24 5 L 43 5 L 43 24 L 24 24 Z M 24 5 "/>
+    </clipPath>
+    <clipPath id="clip-1">
+      <path clip-rule="nonzero" d="M 24.75 5.25 L 38.25 5.25 C 40.734375 5.25 42.75 7.265625 42.75 9.75 L 42.75 23.25 L 30.75 23.25 C 27.4375 23.25 24.75 20.5625 24.75 17.25 Z M 24.75 5.25 "/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <path clip-rule="nonzero" d="M 28 10 L 39 10 L 39 18 L 28 18 Z M 28 10 "/>
+    </clipPath>
+    <clipPath id="clip-3">
+      <path clip-rule="nonzero" d="M 24.75 5.25 L 38.25 5.25 C 40.734375 5.25 42.75 7.265625 42.75 9.75 L 42.75 23.25 L 30.75 23.25 C 27.4375 23.25 24.75 20.5625 24.75 17.25 Z M 24.75 5.25 "/>
+    </clipPath>
+    <image id="source-22" x="0" y="0" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACLUlEQVRoge2Yv05UQRTGf2eAGAmFBdFXsBRhEwpLOyopiJ2FD8Ar+AiWdFa2Lgk1HdEGUShMqCwptLYAnGMhczM7mblzb5R7NuF+ycmZnZk983175t8OjBgxYsSIuwyxJlBBiZ/WOlihN595EVDikavXWochkRu/FydLAVIot7VpWrYSUCIoBR9DY28hoEa4TYSmfvG/0+uOEvnY4naYFaAAQwsoZdxFPicihgL+ps1bZSA3ZQL5GRGTfX3glVcoGwhLqpwjvD95Id8AN+QaSOd+bCl5B8jTqb4U5S1wP4mlKHv8ZHfh9nnPkE59jrgD3MZUt1DeAUvZWMKEZVYtMpD79Wds/UCvuOI78LASU12lw20jK0YueU6dPIAMJSC3JZbWhMPxuGtgqwyUDi4BxHsuuwaynkKQOcBEOO76ZQsB1Y3j8xkfgdMOsX4NtQu17UALkW9s7YM+cnAErBRiqsJriwxovQt82ZYfHp4BXzPNF6LsnGzL1CIDkDm4SDLQ1L/Ri8kTNr0ywbOowvm9aw4/7cgycG0lID1902kUC4t3Kn9jv4NZXSVKayJtjxFuocEU8JYC2kSk0Mh87C0vc6W6GM0fF/IZMBEQyjUhWjCzKRQT7Puckp0+DJwBaH9KydWXMtB8HloAdHs6Ccitgbje9FVC+Us+dzKHtgCJ6oMfH7b+FenYbesjzUBTthRQGr8PJ7UWENBlRwqYq+f1FL35zJuAFNUMjBhx1/EHGiqYN1inmmQAAAAASUVORK5CYII="/>
+  </defs>
+  <path fill-rule="nonzero" fill="#11111b" fill-opacity="1" d="M 9.75 5.25 L 38.25 5.25 C 40.734375 5.25 42.75 7.265625 42.75 9.75 L 42.75 38.25 C 42.75 40.734375 40.734375 42.75 38.25 42.75 L 9.75 42.75 C 7.265625 42.75 5.25 40.734375 5.25 38.25 L 5.25 9.75 C 5.25 7.265625 7.265625 5.25 9.75 5.25 Z M 9.75 5.25 "/>
+  <g clip-path="url(#clip-0)">
+    <g clip-path="url(#clip-1)">
+      <path fill-rule="nonzero" fill="#89b4fa" fill-opacity="1" d="M 24.75 5.25 L 38.25 5.25 C 40.734375 5.25 42.75 7.265625 42.75 9.75 L 42.75 23.25 L 30.75 23.25 C 27.4375 23.25 24.75 20.5625 24.75 17.25 Z M 24.75 5.25 "/>
+      <use xlink:href="#source-22"/>
+    </g>
+  </g>
+  <g clip-path="url(#clip-2)">
+    <g clip-path="url(#clip-3)">
+      <path fill-rule="nonzero" fill="#11111b" fill-opacity="1" d="M 28.949219 11.851562 C 28.949219 11.53125 29.078125 11.226562 29.300781 11 C 29.527344 10.777344 29.832031 10.648438 30.148438 10.648438 L 33.148438 10.648438 L 34.351562 11.851562 L 37.351562 11.851562 C 37.667969 11.851562 37.972656 11.976562 38.199219 12.203125 C 38.421875 12.425781 38.550781 12.730469 38.550781 13.050781 L 38.550781 16.648438 C 38.550781 16.96875 38.421875 17.273438 38.199219 17.5 C 37.972656 17.722656 37.667969 17.851562 37.351562 17.851562 L 30.148438 17.851562 C 29.832031 17.851562 29.527344 17.722656 29.300781 17.5 C 29.078125 17.273438 28.949219 16.96875 28.949219 16.648438 Z M 28.949219 11.851562 "/>
+    </g>
+  </g>
+</svg>

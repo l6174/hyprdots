@@ -1,0 +1,8 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <circle cx="8" cy="8" r="8" style="fill:#7287fd"/>
+  <circle cx="8" cy="8" r="5" style="fill:#40a02b"/>
+ </g>
+ <rect width="16" height="16" rx="2" ry="2" style="fill:#4c4f69"/>
+ <path d="m8 1-6 3v2l6 3 4-2v3l-4 2-3-2-3 1 6 4 6-3v-8zm0 3 2 1-2 1-2-1z" style="fill:#eff1f5"/>
+</svg>

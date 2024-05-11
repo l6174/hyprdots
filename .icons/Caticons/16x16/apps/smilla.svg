@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1">
+ <rect style="fill:#8839ef" width="16" height="16" x="0" y="0" rx=".8" ry=".8"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="2" y="8"/>
+ <rect style="fill:#e64553" width="2" height="2" x="4" y="8"/>
+ <rect style="fill:#7287fd" width="2" height="2" x="6" y="8"/>
+ <rect style="fill:#eff1f5" width="2" height="2" x="8" y="8"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="10" y="8"/>
+ <rect style="fill:#eff1f5" width="2" height="2" x="12" y="8"/>
+ <rect style="fill:#7287fd" width="2" height="2" x="2" y="6"/>
+ <rect style="fill:#eff1f5" width="2" height="2" x="4" y="6"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="6" y="6"/>
+ <rect style="fill:#eff1f5" width="2" height="2" x="8" y="6"/>
+ <rect style="fill:#eff1f5" width="2" height="2" x="10" y="6"/>
+ <rect style="fill:#7287fd" width="2" height="2" x="12" y="6"/>
+ <rect style="fill:#eff1f5" width="2" height="2" x="2" y="4"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="4" y="4"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="6" y="4"/>
+ <rect style="fill:#ea76cb" width="2" height="2" x="8" y="4"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="10" y="4"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="4" y="10"/>
+ <rect style="fill:#ea76cb" width="2" height="2" x="6" y="10"/>
+ <rect style="fill:#e64553" width="2" height="2" x="8" y="10"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="10" y="10"/>
+ <rect style="fill:#e64553" width="2" height="2" x="12" y="10"/>
+ <rect style="fill:#7287fd" width="2" height="2" x="6" y="12"/>
+ <rect style="fill:#eff1f5" width="2" height="2" x="8" y="12"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="10" y="12"/>
+ <rect style="fill:#ea76cb" width="2" height="2" x="12" y="12"/>
+ <rect style="fill:#df8e1d" width="2" height="2" x="2" y="2"/>
+ <rect style="fill:#e64553" width="2" height="2" x="4" y="2"/>
+ <rect style="fill:#40a02b" width="2" height="2" x="6" y="2"/>
+ <rect style="fill:#7287fd" width="2" height="2" x="8" y="2"/>
+</svg>
