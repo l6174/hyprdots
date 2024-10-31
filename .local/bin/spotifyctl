@@ -1,5 +1,6 @@
 status=$(playerctl -p spotify status)
 title=$(playerctl -p spotify metadata xesam:title)
+loop=$(playerctl -p spotify loop)
 
 if [[ -z $status ]] 
 then
@@ -9,14 +10,14 @@ fi
 
 if [[ $status == "Playing" ]]
 then
-   echo "{\"class\": \"playing\", \"text\": \"  $title\"}"
+   echo "{\"class\": \"playing\", \"text\": \"  $title\", \"tooltip\": \"Loop Status: $loop\"}"
    pkill -RTMIN+30 waybar
    exit
 fi
 
 if [[ $status == "Paused" ]]
 then
-   echo "{\"class\": \"paused\", \"text\": \"  $title\"}"
+   echo "{\"class\": \"paused\", \"text\": \"  $title\", \"tooltip\": \"Loop Status: $loop\"}"
    pkill -RTMIN+30 waybar
    exit
 fi

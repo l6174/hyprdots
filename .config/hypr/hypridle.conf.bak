@@ -1,0 +1,236 @@
+
+#██╗░░██╗██╗░░░██╗██████╗░██████╗░██╗░░░░░░█████╗░███╗░░██╗██████╗░
+#██║░░██║╚██╗░██╔╝██╔══██╗██╔══██╗██║░░░░░██╔══██╗████╗░██║██╔══██╗
+#███████║░╚████╔╝░██████╔╝██████╔╝██║░░░░░███████║██╔██╗██║██║░░██║
+#██╔══██║░░╚██╔╝░░██╔═══╝░██╔══██╗██║░░░░░██╔══██║██║╚████║██║░░██║
+#██║░░██║░░░██║░░░██║░░░░░██║░░██║███████╗██║░░██║██║░╚███║██████╔╝
+#╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░
+
+# ------ Import Catppuccin Mocha Colors ------ #
+source=~/.config/hypr/rose-pine.conf
+
+# ------ Environment Variables ------ #
+env = QT_QPA_PLATFORMTHEME, qt6ct
+env = QT_QPA_PLATFORM, wayland
+env = XDG_CURRENT_DESKTOP,Hyprland
+env = XDG_SESSION_TYPE,wayland
+env = XDG_SESSION_DESKTOP,Hyprland
+env = XCURSOR_SIZE, 16
+env = XCURSOR_THEME, BreezeX-RosePine-Linux
+env = HYPRCURSOR_SIZE, 16
+env = HYPRCURSOR_THEME, BreezeX-RosePine-Linux
+
+# ------ Monitor & Scaling ------ #
+monitor = eDP-1, 1366x768@60, 0x0, 1
+
+
+# ------ Startup Executes ------ #
+exec-once = hypridle
+exec-once = waypaper --restore
+exec-once = waybar
+exec-once = nm-applet
+exec-once = nm-applet & blueman-applet
+exec-once = swaync
+exec-once = swayosd-server
+exec-once = wl-paste --type text --watch cliphist store #Stores only text data
+exec-once = wl-paste --type image --watch cliphist store #Stores only image data
+exec-once = ydotoold
+exec-once = /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# ------ Input ------ #
+input {
+  # Keyboard
+  kb_layout = us
+  kb_variant = 
+  kb_model =
+  kb_options = 
+  kb_rules = 
+
+  # Mouse  
+  follow_mouse = 1
+  sensitivity = 0
+}
+
+# ------ Gestures ------ #
+gestures {
+  workspace_swipe = true
+  workspace_swipe_fingers = 3
+  workspace_swipe_distance = 250
+}
+
+# ------ General ------ #
+general {
+  # Borders and Gaps
+  border_size = 2
+  gaps_in = 5
+  gaps_out = 20
+  
+  # Colors
+  col.active_border = $iris
+  col.inactive_border = $pine
+}
+
+# ------ Decoration ------ #
+decoration {
+  # Window Rounding
+  rounding = 10
+  
+  # Opacity
+  active_opacity = 1
+  inactive_opacity = 1
+  fullscreen_opacity = 1
+  
+  # Shadows
+  shadow_ignore_window = 3
+  shadow_ignore_window = true
+
+  # Dimming
+  dim_inactive = false
+  dim_strength = 0.5
+
+  # ------ Blur ------ #
+  blur {
+    enabled = false
+    size = 8
+  }
+}
+
+# ------ Animations ------ #
+animations {
+  enabled = true
+  
+  # Make Workspaces Horizontal
+  bezier = overshot, 0.13, 0.99, 0.29, 1.1
+  animation = workspaces, 1, 6, overshot, slide
+  animation = windows,1,4,overshot,slide
+  animation = layers,1,5,default,default
+}
+
+# ------ Misc ------ #
+misc {
+  disable_hyprland_logo = true
+  animate_manual_resizes = true
+  force_default_wallpaper = 0
+
+  mouse_move_enables_dpms = 0
+}
+
+# ------ XWayland ------ #
+xwayland {
+  force_zero_scaling = true
+}
+
+# ------ Keybinds ------ #
+# --- Variables --- #
+$terminal = kitty
+$launcher = ~/.config/rofi/bin/launcher
+$powermenu = ~/.config/rofi/bin/power.sh
+$runner = ~/.config/rofi/bin/runner
+$control-panel = swaync-client -t -sw
+$dnd = swaync-client -d -sw
+$calc = rofi -show calc -modi calc -no-show-match -no-sort -theme ~/.config/rofi/config/calc.rasi
+$emoji = rofi -modi emoji -show emoji -theme .config/rofi/config/emoji.rasi
+$todo = rofi -modi todo:todominal-rofi -show todo -theme .config/rofi/config/todo.rasi
+$clipboard = cliphist list | rofi -dmenu -p "" -display-columns 2 -theme ~/.config/rofi/config/clipboard.rasi | cliphist decode | wl-copy
+$bitwarden = rofi-rbw
+$sc_all = grim $HOME/Pictures/Screenshots/$(date +'%s_grim.png') && notify-send "Captured Screen"
+$sc_area = grim -g "$(slurp)" $HOME/Pictures/Screenshots/$(date +'%s_grim.png') && notify-send "Captured Area"
+$bluetooth = rofi-bluetooth
+
+# --- Firefox --- #
+bind = SUPER_SHIFT, F, exec, firefox
+
+# --- Terminal --- #
+bind = SUPER_SHIFT, RETURN, exec, $terminal
+
+# --- Bluetooth --- #
+bind = SUPER, B, exec, $bluetooth
+
+# --- Rofi --- #
+bind = SUPER, O, exec, $launcher
+bind = SUPER, Q, exec, $powermenu
+bind = SUPER, R, exec, $runner
+bind = SUPER, V, exec, $clipboard
+bind = SUPER, C, exec, $calc
+bind = SUPER, code:60, exec, $emoji
+bind = SUPER, T, exec, $todo
+bind = SUPER, code:61, exec, $bitwarden
+
+# --- Hyprland --- #
+bind = SUPER_SHIFT, C, killactive,
+bind = SUPER, F, fullscreen,
+bind = SUPER, P, togglefloating,
+bind = SUPER_SHIFT, Q, exec, pkill waybar ; waybar &
+
+# --- Notification --- #
+bind = SUPER, S, exec, $control-panel
+bind = SUPER, D, exec, $dnd
+
+# Screenshots
+bind = , PRINT, exec, $sc_all
+bind = SUPER, PRINT, exec, $sc_area
+
+# Move/Focus
+bind = SUPER_SHIFT, left, movewindow,l
+bind = SUPER_SHIFT, right, movewindow,r
+bind = SUPER_SHIFT, up, movewindow,u
+bind = SUPER_SHIFT, down, movewindow,d
+bind = SUPER, left, movefocus,l
+bind = SUPER, right, movefocus,r
+bind = SUPER, up, movefocus,u
+bind = SUPER, down, movefocus,d
+# Workspaces
+bind = SUPER, 1, workspace, 1
+bind = SUPER, 2, workspace, 2
+bind = SUPER, 3, workspace, 3
+bind = SUPER, 4, workspace, 4
+
+# Send to Workspaces
+bind = SUPER_SHIFT, 1, movetoworkspace, 1
+bind = SUPER_SHIFT, 2, movetoworkspace, 2
+bind = SUPER_SHIFT, 3, movetoworkspace, 3
+bind = SUPER_SHIFT, 4, movetoworkspace, 4
+
+# Move Windows
+bindm = SUPER, mouse:272, movewindow
+bindm = SUPER, mouse:273, resizewindow
+
+# Function Keys
+bind = , XF86MonBrightnessDown, exec, swayosd-client --brightness lower
+bind = , XF86MonBrightnessUp, exec, swayosd-client --brightness raise
+bind = , XF86AudioMute, exec, swayosd-client --output-volume mute-toggle
+bind = , XF86AudioLowerVolume, exec, swayosd-client --output-volume lower
+bind = , XF86AudioRaiseVolume, exec, swayosd-client --output-volume raise
+bind = , XF86AudioPlay, exec, playerctl play-pause
+bind = , XF86AudioPrev, exec, playerctl previous
+bind = , XF86AudioNext, exec, playerctl next
+
+# Lock Session
+bind = SUPER, L, exec, loginctl lock-session
+
+# Random Wallpaper
+bind = SUPER_SHIFT, W, exec, waypaper
+
+# Spotify
+bind = SUPER_SHIFT, S, exec, ~/.local/bin/spotify
+
+# ------ Window Rules ------ #
+# Pavucontrol
+windowrulev2 = float, class:(pavucontrol), title:(Volume Control)
+
+# Bluetooth Manager
+windowrulev2 = float, class:(blueman-manager), title:(blueman-manager)
+
+# Pomodorolm
+windowrulev2 = float, class:(pomodorolm), title:(Pomodorolm)
+
+# Spotify
+windowrulev2 = float, class:(spotify)
+
+# Rofi Animation
+layerrule = animation slide top, rofi
+layerrule = animation slide right, swaync-control-center
+layerrule = animation slide, swaync-notification-window
+layerrule = animation fade, hyprpaper
+layerrule = animation fade, swayosd
+layerrule = animation fade, selection

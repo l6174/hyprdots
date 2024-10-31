@@ -1,3 +1,4 @@
+fish_config theme choose "Rosé Pine"
 fish_add_path --path $HOME/.local/bin
 fish_add_path --path $HOME/bin
 starship init fish | source
@@ -15,3 +16,7 @@ if status --is-login
     
 end
 fish_add_path /home/llawliet/.spicetify
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

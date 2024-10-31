@@ -1,0 +1,19 @@
+STATUS=$(playerctl --player=spotify loop)
+
+case "$STATUS" in
+        None)
+                playerctl --player=spotify loop Playlist
+                notify-send -i spotify -h string:x-canonical-private-synchronous:spotify-loop-toggle -t 1500 "Spotify" "Set Loop to Playlist"
+                ;;
+        Playlist)
+                playerctl --player=spotify loop Track   
+                notify-send -i spotify -h string:x-canonical-private-synchronous:spotify-loop-toggle -t 1500 "Spotify" "Set Loop to Track"
+                ;;
+        Track)
+                playerctl --player=spotify loop None    
+                notify-send -i spotify -h string:x-canonical-private-synchronous:spotify-loop-toggle -t 1500 "Spotify" "Set Loop to None"
+                ;;
+        *)
+                notify-send -i spotify -h string:x-canonical-private-synchronous:spotify-loop-toggle -t 1500 "Spotify" "Unknown status: $STATUS"
+                ;;
+esac

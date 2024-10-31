@@ -6,15 +6,19 @@
     // make the window's titlebar use the workbench colors
     "window.titleBarStyle": "custom",
     "catppuccin.accentColor": "red",
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.workbenchMode": "minimal",
+    "workbench.colorTheme": "Rosé Pine",
     "workbench.iconTheme": "catppuccin-mocha",
-    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.fontFamily": "'0xProto Nerd Font', 'monospace', monospace",
     "editor.fontSize": 16,
-    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "C_Cpp.default.intelliSenseMode": "linux-clang-x64",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.minimap.enabled": false,
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "C_Cpp.default.compilerPath": "/usr/bin/clang",
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "compact"
   }

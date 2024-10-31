@@ -1,0 +1,7 @@
+#!/bin/bash
+# Launch Zen Browser
+/opt/zen-browser-avx2-bin/zen-bin $1 &
+# Wait for the browser to load
+sleep 3.5
+# Simulate Alt + Home
+ydotool key 56:1 102:1 102:0 56:0

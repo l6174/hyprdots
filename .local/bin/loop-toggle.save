@@ -1,0 +1,16 @@
+STATUS=$(playerctl --player=spotify loop)
+
+case $STATUS in
+	None)
+		playertcl --player=spotify loop Playlist
+		notify-send "Set Loop to Playlist"
+		;;
+        Playlist)
+                playertcl --player=spotify loop Track
+                notify-send "Set Loop to Track"
+		;;
+        Track)
+                playertcl --player=spotify loop None
+                notify-send "Set Loop to None"
+		;;
+esac

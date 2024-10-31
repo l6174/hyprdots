@@ -1,4 +1,2 @@
-/usr/bin/spotify &
-sleep 3
-pkill -RTMIN+30 waybar
+/usr/bin/spotify --enable-features=UseOzonePlatform --ozone-platform=wayland &
 exit

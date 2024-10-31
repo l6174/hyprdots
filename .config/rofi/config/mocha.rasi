@@ -1,8 +1,8 @@
 * {
-  base: #1e1e2e;
-  mantle: #181825;
-  text: #cdd6f4;
-  red: #f38ba8;
-  green: #a6e3a1;
-  blue: #89DCEBff;
+  base: #1f1d2e;
+  mantle: #191724;
+  text: #e0def4;
+  red: #eb6f92;
+  green: #31748f;
+  blue: #9ccfd8;
 }

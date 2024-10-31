@@ -8,25 +8,24 @@
 - [Contents](#contents)
 
 # Gallery
-![](https://github.com/l6174/hyprdots/blob/main/Pictures/Screenshots/preview1.png)
+![](https://github.com/l6174/hyprdots/blob/main/Pictures/Screenshots/preview1.gif)
 ![](https://github.com/l6174/hyprdots/blob/main/Pictures/Screenshots/preview2.png)
 ![](https://github.com/l6174/hyprdots/blob/main/Pictures/Screenshots/preview3.png)
 ![](https://github.com/l6174/hyprdots/blob/main/Pictures/Screenshots/preview4.png)
 ![](https://github.com/l6174/hyprdots/blob/main/Pictures/Screenshots/preview5.png)
 
-> [!warning]
-> This setup is not suitable for monitors of resolution other then 1366x768.
+> [!note]
+> ~~This setup is not suitable for monitors of resolution other then 1366x768.~~ This is setup is now suitable for any screen (Thanks to Hyprpanel).
 
 # Contents
-- Wallpaper: [Asteroid Miner](https://github.com/l6174/hyprdots/blob/main/Wallpapers/Favourite/CatppuccinMocha-Kurzgesagt-AsteroidMiner.png)
-- Bar: [Waybar](https://github.com/Alexays/Waybar)
+- Wallpaper: [Squiggly](https://github.com/l6174/hyprdots/blob/main/Wallpapers/Rose_Pine/Horizontal/squiggly.png)
+- Panel: [Hyprpanel](https://hyprpanel.com)
 - Fetch Tool: [Nitch](https://github.com/ssleert/nitch)
-- Notification Daemon: [SwayNC](https://github.com/catppuccin/swaync)
-- New Tab Page: [Dawn](https://github.com/l6174/startpage)
+- New Tab Page: [Excalith](https://github.com/excalith/excalith-start-page)
 - Visualizer: [Cava](https://github.com/karlstav/cava)
 - Prompt: [Starship](https://starship.rs/)
 - Terminal: [Kitty](https://sw.kovidgoyal.net/kitty/)
-- Color Scheme: [Catppuccin](https://catppuccin.com)
+- Color Scheme: [Rosé Pine](https://rosepinetheme.com)
 
 ## TODO
 - [ ] Add Installation Script

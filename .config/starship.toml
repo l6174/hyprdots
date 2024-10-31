@@ -12,9 +12,9 @@ add_newline = true
 disabled = true
 
 [character]
-format = "[](fg:#f38ba8 bg:#181825)[ ](fg:#181825 bg:#f38ba8)[](fg:#f38ba8 bg:none) $symbol "
+format = "[](fg:#c4a7e7 bg:#26233a)[ ](fg:#26233a bg:#c4a7e7)[](fg:#c4a7e7 bg:none) $symbol "
 success_symbol = "[](#89b4fa bold)"
-error_symbol = "[](#f38ba8 bold)"
+error_symbol = "[](#c4a7e7 bold)"
 vicmd_symbol = " "
 
 [hostname]
@@ -24,13 +24,13 @@ disabled = false
 
 [cmd_duration]
 min_time = 1
-format = "[](fg:#181825 bg:none)[$duration]($style)[](fg:#181825 bg:#181825)[](fg:#f38ba8 bg:#181825)[ ](fg:#181825 bg:#f38ba8)[](fg:#f38ba8 bg:none) "
+format = "[](fg:#26233a bg:none)[$duration]($style)[](fg:#26233a bg:#26233a)[](fg:#c4a7e7 bg:#26233a)[ ](fg:#26233a bg:#c4a7e7)[](fg:#c4a7e7 bg:none) "
 disabled = false
-style = "fg:#cdd6f4 bg:#181825"
+style = "fg:#cdd6f4 bg:#26233a"
 
 [directory]
-format = "[](fg:#181825 bg:none)[$path ](fg:#cdd6f4 bg:#181825)"
-style = "fg:#181825 bg:#f38ba8"
+format = "[](fg:#26233a bg:none)[$path ](fg:#cdd6f4 bg:#26233a)"
+style = "fg:#26233a bg:#c4a7e7"
 truncation_length = 3
 truncate_to_repo=false
 home_symbol = "~"
@@ -40,13 +40,13 @@ read_only = " "
 disabled = true
 
 [git_branch]
-format = "[](fg:#181825 bg:none)[$branch]($style)[](fg:#181825 bg:#181825)[](fg:#f38ba8 bg:#181825)[](fg:#313244 bg:#f38ba8)[](fg:#f38ba8 bg:none) "
-style = "fg:#cdd6f4 bg:#181825"
+format = "[](fg:#26233a bg:none)[$branch]($style)[](fg:#26233a bg:#26233a)[](fg:#c4a7e7 bg:#26233a)[](fg:#313244 bg:#c4a7e7)[](fg:#c4a7e7 bg:none) "
+style = "fg:#cdd6f4 bg:#26233a"
 symbol = " "
 
 [git_status]
-format="[](fg:#181825 bg:none)[$all_status$ahead_behind]($style)[](fg:#181825 bg:#181825)[](fg:#f38ba8 bg:#181825)[ ](fg:#181825 bg:#f38ba8)[](fg:#f38ba8 bg:none) "
-style = "fg:#cdd6f4 bg:#181825"
+format="[](fg:#26233a bg:none)[$all_status$ahead_behind]($style)[](fg:#26233a bg:#26233a)[](fg:#c4a7e7 bg:#26233a)[ ](fg:#26233a bg:#c4a7e7)[](fg:#c4a7e7 bg:none) "
+style = "fg:#cdd6f4 bg:#26233a"
 conflicted = "="
 ahead =	"⇡${count}"
 behind = "⇣${count}"

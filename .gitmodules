@@ -1,0 +1,3 @@
+[submodule ".config/ags"]
+	path = .config/ags
+	url = https://github.com/l6174/HyprPanel.git
