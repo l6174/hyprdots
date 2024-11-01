@@ -1,1 +1,1 @@
-systemctl reboot --boot-loader-entry=arch-linux-zen.conf
+systemctl reboot --boot-loader-entry=arch-linux-lts.conf
