@@ -19,6 +19,7 @@
 
 # Contents
 - Wallpaper: [Squiggly](https://github.com/l6174/hyprdots/blob/main/Wallpapers/Rose_Pine/Horizontal/squiggly.png)
+- Browser: [Zen Browser](https://zen-browser.app/)
 - Panel: [Hyprpanel](https://hyprpanel.com)
 - Fetch Tool: [Nitch](https://github.com/ssleert/nitch)
 - New Tab Page: [Excalith](https://github.com/excalith/excalith-start-page)
@@ -40,10 +41,10 @@ $ git clone https://github.com/l6174/HyprPanel
 $ mv HyprPanel ags
 $ pkill ags ; ags & disown
 ```
-3. Open your HyprPanel options menu from dashboard
+3. Open your HyprPanel options menu from dashboard or by running `ags -t settings-dialog` in terminal
 4. Restore Configuration Files
-	- Configuration > General > Import and Select ~/.config/backups/hyprpanel_config.json
-	- Configuration > General Settings > Import and Select ~/.config/backups/hyprpanel_theme.json
+	- Configuration > General > Import and Select `~/.config/backups/hyprpanel_config.json`
+	- Configuration > General Settings > Import and Select `~/.config/backups/hyprpanel_theme.json`
 
 ## TODO
 - [ ] Add Installation Script
