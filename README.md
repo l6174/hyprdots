@@ -27,5 +27,23 @@
 - Terminal: [Kitty](https://sw.kovidgoyal.net/kitty/)
 - Color Scheme: [Rosé Pine](https://rosepinetheme.com)
 
+## HyprPanel Config
+
+### Steps to Install HyprPanel Config
+
+1. Backup `~/.config/ags`
+2. Execute these commands:
+```
+$ cd ~/.config
+$ rm -r ags/
+$ git clone https://github.com/l6174/HyprPanel
+$ mv HyprPanel ags
+$ pkill ags ; ags & disown
+```
+3. Open your HyprPanel options menu from dashboard
+4. Restore Configuration Files
+	- Configuration > General > Import and Select ~/.config/backups/hyprpanel_config.json
+	- Configuration > General Settings > Import and Select ~/.config/backups/hyprpanel_theme.json
+
 ## TODO
 - [ ] Add Installation Script
