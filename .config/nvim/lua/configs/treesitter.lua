@@ -12,6 +12,7 @@ local options = {
     "vim",
     "vimdoc",
     "yaml",
+    "hyprlang",
   },
 
   highlight = {

@@ -38,3 +38,6 @@ end)
 
 vim.opt.relativenumber = true
 vim.env.NO_FETCH = "1"
+vim.filetype.add {
+  pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
+}
