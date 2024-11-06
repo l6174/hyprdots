@@ -4,13 +4,15 @@ fish_add_path --path $HOME/bin
 starship init fish | source
 zoxide init --cmd cd fish | source
 set -x BAT_THEME Catppuccin-mocha
-set -x EDITOR nano
+set -x EDITOR nvim
 set -x fish_greeting ""
 if status is-interactive
     # Commands to run in interactive sessions can go here
     # neofetch --ascii radioactive.txt --ascii_colors 2 1
     # neofetch
-    nitch
+    if not set -q NO_FETCH
+        nitch
+    end
 end
 if status --is-login    
     
