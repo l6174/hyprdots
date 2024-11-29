@@ -73,6 +73,7 @@ zstyle ':fzf-tab:*' use-fzf-default-opts yes
 
 # Aliases
 alias l="exa -l --color=always --group-directories-first"
+alias la="exa -l -a --color=always --group-directories-first"
 alias cat="bat"
 alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias se="sudoedit"
