@@ -2,3 +2,6 @@
 	path = .config/ags
 	url = https://github.com/l6174/HyprPanel.git
 	branch = master
+[submodule ".config/HyprPanel"]
+	path = .config/HyprPanel
+	url = https://github.com/l6174/HyprPanel

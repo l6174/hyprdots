@@ -32,19 +32,17 @@
 
 ### Steps to Install HyprPanel Config
 
-1. Backup `~/.config/ags`
-2. Execute these commands:
+1. Execute these commands:
 ```
 $ cd ~/.config
-$ rm -r ags/
+$ rm -r HyprPanel/
 $ git clone https://github.com/l6174/HyprPanel
-$ mv HyprPanel ags
-$ pkill ags ; ags & disown
+$ cd HyprPanel/
+$ meson setup build
+$ meson compile -C build
+$ meson install -C build
 ```
-3. Open your HyprPanel options menu from dashboard or by running `ags -t settings-dialog` in terminal
-4. Restore Configuration Files
-	- Configuration > General > Import and Select `~/.config/backups/hyprpanel_config.json`
-	- Configuration > General Settings > Import and Select `~/.config/backups/hyprpanel_theme.json`
+2. Copy the folder `.config/hyprpanel` from dotfiles to your ~/.config/hyprpanel/
 
 ## TODO
 - [ ] Add Installation Script
