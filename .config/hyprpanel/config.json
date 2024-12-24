@@ -504,7 +504,7 @@
   "menus.transition": "crossfade",
   "bar.systray.customIcons": {
     "chrome_status_icon_1": {
-      "icon": " ",
+      "icon": "",
       "color": "#e0def4"
     },
     "spotify-client": {
