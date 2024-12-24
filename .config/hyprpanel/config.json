@@ -477,8 +477,8 @@
   "bar.customModules.updates.icon": "",
   "bar.customModules.updates.leftClick": "kitty -e arch-update",
   "bar.media.rightClick": "playerctl -p spotify play-pause",
-  "menus.dashboard.shortcuts.left.shortcut3.icon": " ",
-  "menus.dashboard.shortcuts.left.shortcut1.icon": " ",
+  "menus.dashboard.shortcuts.left.shortcut3.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
   "menus.dashboard.shortcuts.left.shortcut2.icon": "",
   "menus.dashboard.shortcuts.right.shortcut3.icon": "󰹑",
   "bar.windowtitle.title_map": [
