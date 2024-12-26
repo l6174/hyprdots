@@ -541,5 +541,7 @@
   "theme.bar.buttons.modules.hyprsunset.border": "#25223a",
   "theme.bar.buttons.modules.hyprsunset.icon_background": "#191624",
   "theme.bar.buttons.modules.hyprsunset.background": "#191624",
-  "bar.customModules.hyprsunset.temperature": "3400k"
+  "bar.customModules.hyprsunset.temperature": "3400k",
+  "bar.volume.scrollUp": "hyprpanel vol +5",
+  "bar.volume.scrollDown": "hyprpanel vol -5"
 }
