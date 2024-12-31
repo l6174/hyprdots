@@ -1,4 +1,7 @@
 configuration {
+    dmenu {
+      display-name: "";
+      }
     show-icons:                     false;
     disable-history:                false;
     click-to-exit: 		            true;
@@ -15,7 +18,7 @@ window {
     border:                         3px;
     border-color:                   @BDR;
     border-radius:                  10px;
-    width:                          400px;
+    width:                          210px;
     location:                       center;
     anchor:                         center;
     x-offset:                       0;
@@ -23,7 +26,7 @@ window {
 }
 
 prompt {
-    enabled: 			            true;
+    enabled:                  true;
     padding: 			            8px;
     background-color: 		        @BG;
     text-color: 		            @IMG;
