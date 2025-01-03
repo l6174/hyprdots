@@ -15,7 +15,6 @@
   "theme.bar.border_radius": "0.4em",
   "theme.bar.buttons.radius": "10em",
   "bar.workspaces.workspaces": 4,
-  "bar.workspaces.hideUnoccupied": false,
   "theme.bar.buttons.padding_x": "0.7rem",
   "theme.bar.margin_sides": "0.5em",
   "theme.bar.buttons.borderSize": "0.2em",
@@ -38,7 +37,7 @@
         "network",
         "bluetooth",
         "battery",
-        "hyprsunset",
+        "hypridle",
         "systray",
         "updates",
         "notifications",
@@ -543,5 +542,15 @@
   "theme.bar.buttons.modules.hyprsunset.background": "#191624",
   "bar.customModules.hyprsunset.temperature": "3400k",
   "bar.volume.scrollUp": "hyprpanel vol +5",
-  "bar.volume.scrollDown": "hyprpanel vol -5"
+  "bar.volume.scrollDown": "hyprpanel vol -5",
+  "theme.osd.border.size": "3px",
+  "theme.osd.border.color": "#25223a",
+  "theme.bar.buttons.modules.hypridle.text": "#ebbcba",
+  "theme.bar.buttons.modules.hypridle.icon": "#ebbcba",
+  "theme.bar.buttons.modules.hypridle.background": "#191624",
+  "theme.bar.buttons.modules.hypridle.border": "#25223a",
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.monitorSpecific": false,
+  "bar.customModules.power.icon": "",
+  "theme.bar.buttons.modules.power.spacing": "0"
 }
